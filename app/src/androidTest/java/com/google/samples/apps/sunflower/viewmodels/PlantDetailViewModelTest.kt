@@ -45,8 +45,8 @@ class PlantDetailViewModelTest {
 
     @get:Rule
     val rule = RuleChain
-            .outerRule(hiltRule)
-            .around(instantTaskExecutorRule)
+        .outerRule(hiltRule)
+        .around(instantTaskExecutorRule)
 
     @Inject
     lateinit var plantRepository: PlantRepository
