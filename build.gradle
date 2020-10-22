@@ -70,6 +70,7 @@ buildscript {
 
 plugins {
     id "com.diffplug.spotless" version "5.2.0"
+    id "com.github.plnice.canidropjetifier" version "0.5"
 }
 
 allprojects {
