@@ -65,6 +65,9 @@ android {
 
     lintOptions {
         abortOnError false
+
+//        Once you have many modules in this project, Uncomment this helpful optimization option
+//        checkDependencies true
     }
 }
 
